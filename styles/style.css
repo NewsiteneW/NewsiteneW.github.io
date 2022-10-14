@@ -1,0 +1,308 @@
+/* here, set all the words in the form of paragraph to brown color */
+/* pay attention to the structure of the instruction*/
+p, li {
+    color:rgb(21, 8, 8);
+    /* width: 500px; */
+    /* border: 1px solid black; */
+    font-size: 23px;
+    /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color:rgb(20, 13, 7);
+    /* width: 500px; */
+    font-size: 55px;
+    text-align: center;
+
+    margin: 0;
+    padding: 20px 0;
+    /* color: #00539F; */
+    text-shadow: 3px 3px 12px rgb(130, 125, 125);
+    /*水平偏移，垂直偏移，模糊半径，颜色*/
+}
+
+html {
+    /* px 表示“像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 20px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Montserrat', sans-serif;
+    /* 更该页面颜色 */
+    background-color: #ffb3a7;
+    /*background-color: #ffb3a7;*/
+  }
+
+body {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #ED5A65;
+    /*background-color: #ED5A65;*/
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+img.mainpicture {
+  display: block;
+  margin: 0 auto;
+  width:660px;
+  height:450px
+}
+
+img.cover {
+  width:100%;
+  height:100%;
+}
+
+video {
+  width:400px;
+  height:400px
+}
+
+p {
+  background-image: url("images/IMG_0779.JPG");
+}
+
+/* li {
+  list-style-type: none;
+} */
+
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li.special {
+  color: #ffb3a7;
+  font-weight: bold;
+}
+
+/*change link setting*/
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.upper {
+  border: 5px solid rgb(243, 135, 158);
+  border-radius: 1em;
+  margin: 5px;
+	padding: 5px;
+  width: 1070px;
+  height: 134px;
+  /* border-top-right-radius: 10% 30%; */
+}
+
+.box_up {
+  margin: 28px;
+  /* margin: 15px;
+	padding: 15px; */
+  width: 120px;
+  height: 80px;
+  background-color: rebeccapurple;
+  overflow: scroll;
+  float: left;
+  /* transform: rotate(0.8turn) */
+}
+
+.box_message {
+  margin: 60px;
+  /* margin: 15px;
+	padding: 15px; */
+  width: 400px;
+  height: 80px;
+  background-color: rgb(226, 136, 170);
+  /* overflow: scroll; */
+  float: left;
+  border-radius: 1em;
+  /* transform: rotate(0.8turn) */
+}
+
+.outer {
+  border: 5px solid rgb(243, 135, 158);
+  border-radius: 1em;
+  float:left;
+  margin: 5px;
+	padding: 5px;
+  /* border-top-right-radius: 10% 30%; */
+}
+
+.right_outer {
+  border: 5px solid rgb(243, 135, 158);
+  border-radius: 1em;
+  float: right;
+  margin: 5px;
+	padding: 5px;
+  /* border-top-right-radius: 10% 30%; */
+}
+
+.box {
+  margin: 30px;
+  width: 120px;
+  height: 80px;
+  background-color: rebeccapurple;
+  overflow: scroll;
+  /* float: left; */
+  /* transform: rotate(0.8turn) */
+}
+
+.box_longer {
+  margin: 30px;
+  width: 120px;
+  height: 150px;
+  background-color: rebeccapurple;
+  overflow: scroll;
+  /* float: left; */
+  /* transform: rotate(0.8turn) */
+}
+
+.box_big {
+  margin: 30px;
+  width: 120px;
+  height: 80px;
+  background-color: rebeccapurple;
+  overflow: scroll;
+  /* float: right; */
+  /* transform: rotate(0.8turn) */
+}
+
+.upper_small {
+  border: 5px solid rgb(243, 135, 158);
+  border-radius: 1em;
+  margin: 5px;
+	padding: 5px;
+  width: 670px;
+  height: 170px;
+  float:left;
+  /* border-top-right-radius: 10% 30%; */
+}
+
+.box_down {
+  margin: 28px;
+  /* margin: 15px;
+	padding: 15px; */
+  width: 165px;
+  height: 115px;
+  background-color: rebeccapurple;
+  overflow: scroll;
+  float: left;
+  /* transform: rotate(0.8turn) */
+}
+
+.upper_video {
+  border: 5px solid rgb(243, 135, 158);
+  border-radius: 1em;
+  margin: 5px;
+	padding: 5px;
+  width: 1070px;
+  height: 404px;
+  display: flex;
+  /* border-top-right-radius: 10% 30%; */
+}
+
+.box_video {
+  margin: 30px;
+  /* margin: 15px;
+	padding: 15px; */
+  width: 410px;
+  height: 300px;
+  background-color: rgb(226, 136, 170);
+  /* overflow: scroll; */
+  /* float: left; */
+  border-radius: 1em;
+  /* transform: rotate(0.8turn) */
+}
+
+/* .upper_video > div {
+  flex: 1;
+} */
+
+.box_heart {
+  position: relative;
+  border-radius: 5em;
+  top: 100px;
+  left: 0px;
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  /* overflow: scroll; */
+  /* float: left; */
+  /* transform: rotate(0.8turn) */
+}
+
+.wrapper {
+  border: 5px solid rgb(243, 135, 158);
+  border-radius: 1em;
+  margin: 5px;
+	padding: 5px;
+  width: 1070px;
+  height: 404px;
+  display: flex;
+  /* border-top-right-radius: 10% 30%; */
+}
+
+/* .wrapper > div {
+  flex: 1;
+} */
+
+span {
+  margin: 20px;
+  padding: 20px;
+  width: 80px;
+  height: 50px;
+  background-color: lightblue;
+  border: 2px solid blue;
+  display: inline-block;
+}
+
+.links-list a {
+  background-color: rgb(179,57,81);
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  display: inline-block
+}
+
+.links-list a:hover {
+  background-color: rgb(66, 28, 40);
+  color: #fff;
+}
+
+.horizontal {
+  writing-mode: horizontal-tb;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+/* .up {
+  width: 100px;
+  height: 100px;
+  border: 1px solid blue;
+  margin: 100px;
+}
+.down {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  margin: 100px;
+} */
+  
